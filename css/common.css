@@ -12,3 +12,96 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+label {
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+input {
+  height: 40px;
+  width: 360px;
+  font-size: 16px;
+  padding: 8px;
+}
+button {
+   
+  border-radius: 8px;
+  border-color: #4e75ff;
+padding: 8px 16px;
+ 
+height: 40px;
+background: #4e75ff;
+color: #fff;
+font-size: 16px;
+margin: 16px 0 0 0;
+}
+
+
+/** task 1 **/
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+}
+.item h2 {
+font-weight: 500;
+padding-top: 10px;
+}
+.item {
+  background-color:#f6f6fe ;
+  margin: 10px;
+  border-radius: 8px;
+  padding: 0 16px 16px 16px;
+  width: 392px;
+}
+.item li {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 8px 0 8px 0;
+  width: 360px;
+  color: #2e2f42;
+}
+/** task 2 **/
+.gallery {
+ 
+}
+.gallery-item {
+  display: inline-flex;
+  margin: 16px 12px;
+  
+}
+.gallery-item img{
+width: 360px;
+height: 300px;
+}
+/** task 3 **/
+#name-input {
+  height: 40px;
+  width: 360px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+/** task 4 **/
+.login-form{
+  background-color: #fff;
+  border-radius: 8px;
+padding: 24px ;
+width: 408px;
+ 
+}
+.widget{
+  background: #fff;
+  padding: 100px 88px;
+  border-radius: 8px;
+padding: 100px 88px;
+width: 345px;
+ 
+}
+
+button[data-destroy]{
+  background:  #FF4E4E ;
+  border-color: #FF4E4E ;
+}
