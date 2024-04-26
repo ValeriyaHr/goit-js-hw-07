@@ -25,16 +25,15 @@ input {
   padding: 8px;
 }
 button {
-   
   border-radius: 8px;
   border-color: #4e75ff;
-padding: 8px 16px;
- 
-height: 40px;
-background: #4e75ff;
-color: #fff;
-font-size: 16px;
-margin: 16px 0 0 0;
+  padding: 8px 16px;
+  height: 40px;
+  background: #4e75ff;
+  color: #fff;
+  font-size: 16px;
+  margin: 16px 0 0 0;
+  box-shadow: none;
 }
 
 
@@ -90,18 +89,24 @@ height: 300px;
   border-radius: 8px;
 padding: 24px ;
 width: 408px;
- 
 }
 .widget{
   background: #fff;
   padding: 100px 88px;
   border-radius: 8px;
-padding: 100px 88px;
-width: 345px;
- 
+  padding: 100px 88px;
+  width: 345px;
 }
 
 button[data-destroy]{
   background:  #FF4E4E ;
   border-color: #FF4E4E ;
+}
+
+#controls {
+  /* border-radius: 8px;
+padding: 32px;
+width: 486px;
+height: 104px;
+  padding: 32px; */
 }
